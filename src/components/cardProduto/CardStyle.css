@@ -1,0 +1,51 @@
+.cardContent{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 3rem;
+    padding: 0rem 4rem;
+}
+.cardContentProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #d8d2d2;
+    border-radius: 20px;
+}
+.cardContentProduct img{
+    width: 150px;
+    border-radius: 150px ;
+}
+
+.cardContentProduct h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #6d6a6a;
+    margin: 10px 0;
+
+}
+.cardContentProductButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.cardContentProductButton button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6d97e6;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.productContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.productContent h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.productContent p{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(143, 146, 146);
+}

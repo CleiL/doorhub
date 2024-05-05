@@ -1,0 +1,33 @@
+.navBar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navBarLogoEmpresa img {
+    width: 120px;
+    height: 120px;
+}
+
+.navBarList{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.navBarList li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navBarButton{
+    background-color: #2C76FC;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
